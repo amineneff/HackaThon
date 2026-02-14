@@ -1,0 +1,14 @@
+# requirements.txt
+
+# Core dependencies
+PyPDF2>=3.0.0
+pdfplumber>=0.10.0
+Pillow>=10.0.0
+pytesseract>=0.3.10
+openai-whisper>=20231117
+
+# Optional for better audio handling
+pydub>=0.25.1
+
+# For production deployment
+python-magic>=0.4.27  # Better MIME type detection
